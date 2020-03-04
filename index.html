@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>goit-markup-hw-06</title>
+    <meta http-equiv="X-UA-Compatile" content="ie=edge" />
+    <title>goit-markup-hw-08</title>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:300,400,700,900&display=swap"
       rel="stylesheet"
@@ -16,30 +16,30 @@
     <header class="header">
       <div class="container">
         <div class="page-nav">
-          <ul class="contact-item list">
-            <li class="item">
-              <a class="phone link" href="#">123-123456789</a>
+          <ul class="page-nav__items list">
+            <li class="page-nav__item">
+              <a class="page-nav__link tel" href="#">123-123456789</a>
             </li>
-            <li class="item">
-              <a class="email link" href="#">info@ltntcom</a>
+            <li class="page-nav__item">
+              <a class="page-nav__link email" href="#">info@ltntcom</a>
             </li>
           </ul>
 
-          <ul class="login-menu-list list">
-            <li class="item">
-              <a class="link" href="#">My Account</a>
+          <ul class="login-menu list">
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="#">My Account</a>
             </li>
-            <li class="item">
-              <a class="link" href="#">Wishlist</a>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="#">Wishlist</a>
             </li>
-            <li class="item">
-              <a class="link" href="#">Cart</a>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="#">Cart</a>
             </li>
-            <li class="item">
-              <a class="link" href="#">Checkout</a>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="#">Checkout</a>
             </li>
-            <li class="item">
-              <a class="link" href="#">Login/Register</a>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="#">Login/Register</a>
             </li>
           </ul>
         </div>
@@ -50,12 +50,11 @@
       <nav class="nav">
         <a href="#" class="logo"><span>M</span>art</a>
         <ul class="nav-list list">
-          <li><a href="#" class="nav-link">Home</a></li>
-          <li><a href="" class="nav-link">About us</a></li>
-          <li><a href="" class="nav-link">Page</a></li>
-          <li><a href="" class="nav-link">Shop</a></li>
-          <li><a href="" class="nav-link">Blog</a></li>
-          <li><a href="" class="nav-link">Contact us</a></li>
+          <li><a href="#" class="nav-list__link">Home</a></li>
+          <li><a href="#" class="nav-list__link">Page</a></li>
+          <li><a href="#" class="nav-list__link">Shop</a></li>
+          <li><a href="#" class="nav-list__link">Blog</a></li>
+          <li><a href="#" class="nav-list__link">Contact us</a></li>
         </ul>
       </nav>
     </div>
@@ -64,45 +63,45 @@
       <div class="banner">
         <section class="hero">
           <h1 class="hero-title">
-            <span class="first"
-              >Dresses <span class="second">&#38;</span> Jeans</span
+            <span class="hero-title__first"
+              >Dresses <span class="hero-title__second">&#38;</span> Jeans</span
             >
-            from ourfamous branks <span class="last">sale</span>
+            from ourfamous branks <span class="hero-title__last">sale</span>
           </h1>
-          <a class="hero-link" href="">Buy now</a>
+          <a class="hero__link" href="">Buy now</a>
         </section>
       </div>
 
       <section class="about">
         <div class="container">
-          <ul class="about-list list">
-            <li class="about-item">
-              <h3 class="about-title">Setting</h3>
-              <p class="item">
+          <ul class="about__list list">
+            <li class="about__item about__item--setting">
+              <h3 class="about__title">Setting</h3>
+              <p class="about__text">
                 Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
                 civibus efficiantur in. Nec id tempor imperdiet deterruisset,
                 doctus volumus explicari qui ex, appareat similique an usu.
               </p>
             </li>
-            <li class="about-item">
-              <h3 class="about-title">Money back</h3>
-              <p class="item">
+            <li class="about__item about__item--money">
+              <h3 class="about__title">Money back</h3>
+              <p class="about__text">
                 Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
                 civibus efficiantur in. Nec id tempor imperdiet deterruisset,
                 doctus volumus explicari qui ex, appareat similique an usu.
               </p>
             </li>
-            <li class="about-item">
-              <h3 class="about-title">Worldwide shipping</h3>
-              <p class="item">
+            <li class="about__item about__item--worldwide">
+              <h3 class="about__title">Worldwide shipping</h3>
+              <p class="about__text">
                 Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
                 civibus efficiantur in. Nec id tempor imperdiet deterruisset,
                 doctus volumus explicari qui ex, appareat similique an usu.
               </p>
             </li>
-            <li class="about-item">
-              <h3 class="about-title">Worldwide shipping</h3>
-              <p class="item">
+            <li class="about__item about__item--compass">
+              <h3 class="about__title">Worldwide shipping</h3>
+              <p class="about__text">
                 Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus
                 civibus efficiantur in. Nec id tempor imperdiet deterruisset,
                 doctus volumus explicari qui ex, appareat similique an usu.
@@ -112,28 +111,34 @@
         </div>
       </section>
 
-      <section class="collection">
+      <section class="collection section">
         <div class="container">
-          <h2 class="title">New collection</h2>
-          <ul class="collection-list list">
-            <li class="collection-item">
-              <a class="price-link" href="">
+          <h2 class="collection__title section__title">New collection</h2>
+          <ul class="collection__list list">
+            <li class="collection__item">
+              <a class="collection__link" href="">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="collection__image">
                     <img
                       src="./images/new-collection/category-1.png"
                       alt="man in a blue t-shirt"
@@ -141,30 +146,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Blue TShirt</p>
-                  <p class="price">$26</p>
+                <div class="collection__coin">
+                  <p class="collection__text">Blue TShirt</p>
+                  <p class="collection__price">$26</p>
                 </div>
               </a>
             </li>
-            <li class="collection-item">
-              <a class="price-link" href="">
+            <li class="collection__item">
+              <a class="collection__link" href="">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="collection__image">
                     <img
                       src="./images/new-collection/category-2.png"
                       alt="girl in a long shirt"
@@ -172,30 +183,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Woman shirt</p>
-                  <p class="price">$31</p>
+                <div class="collection__coin">
+                  <p class="collection__text">Woman shirt</p>
+                  <p class="collection__price">$31</p>
                 </div>
               </a>
             </li>
-            <li class="collection-item">
-              <a class="price-link" href="">
+            <li class="collection__item">
+              <a class="collection__link" href="">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="collection__image">
                     <img
                       src="./images/new-collection/category-3.png"
                       alt="man in a Yellow t-shirt"
@@ -203,30 +220,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Yellow TShirt</p>
-                  <p class="price">$21</p>
+                <div class="collection__coin">
+                  <p class="collection__text">Yellow TShirt</p>
+                  <p class="collection__price">$21</p>
                 </div>
               </a>
             </li>
-            <li class="collection-item">
-              <a class="price-link" href="">
+            <li class="collection__item">
+              <a class="collection__link" href="">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="collection__image">
                     <img
                       src="./images/new-collection/category-4.png"
                       alt="girl in lingerin"
@@ -234,9 +257,9 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Cool lingerin</p>
-                  <p class="price">$56</p>
+                <div class="collection__coin">
+                  <p class="collection__text">Cool lingerin</p>
+                  <p class="collection__price">$56</p>
                 </div>
               </a>
             </li>
@@ -244,28 +267,34 @@
         </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery section">
         <div class="container">
-          <h2 class="title">Featured products</h2>
-          <ul class="gallery-list list">
-            <li class="gallery-item">
-              <a class="price-link" href="">
+          <h2 class="gallery__title section__title">Featured products</h2>
+          <ul class="gallery__list list">
+            <li class="gallery__item">
+              <a class="gallery__link" href="">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product1.png"
                       alt="Blue shoes"
@@ -273,30 +302,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Blue TShirt</p>
-                  <p class="price">$26</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Blue TShirt</p>
+                  <p class="gallery__price">$26</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product2.png"
                       alt="Yellow belt"
@@ -304,30 +339,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Woman shirt</p>
-                  <p class="price">$31</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Woman shirt</p>
+                  <p class="gallery__price">$31</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product3.png"
                       alt="Plaid hat"
@@ -335,30 +376,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Yellow TShirt</p>
-                  <p class="price">$21</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Yellow TShirt</p>
+                  <p class="gallery__price">$21</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product4.png"
                       alt="Blue handbag"
@@ -366,30 +413,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Cool lingerie</p>
-                  <p class="price">$56</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Cool lingerie</p>
+                  <p class="gallery__price">$56</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product5.png"
                       alt="Black handbag"
@@ -397,30 +450,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Blue TShirt</p>
-                  <p class="price">$26</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Blue TShirt</p>
+                  <p class="gallery__price">$26</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product6.png"
                       alt="Black belt"
@@ -428,30 +487,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Woman shirt</p>
-                  <p class="price">$31</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Woman shirt</p>
+                  <p class="gallery__price">$31</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product7.png"
                       alt="Yellow shoes"
@@ -459,30 +524,36 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Yellow TShirt</p>
-                  <p class="price">$21</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Yellow TShirt</p>
+                  <p class="gallery__price">$21</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a class="price-link" href="#">
+            <li class="gallery__item">
+              <a class="gallery__link" href="#">
                 <div class="overlay">
-                  <ul class="overlay-list list">
-                    <li class="overlay-item">
-                      <button class="overlay-icon like"></button>
+                  <ul class="overlay__list list">
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--like"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon share"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon-- share"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="overlay-icon clock"></button>
+                    <li class="overlay__item">
+                      <button
+                        class="overlay__icon overlay__icon--clock"
+                      ></button>
                     </li>
-                    <li class="overlay-item">
-                      <button class="button cart">Add to cart</button>
+                    <li class="overlay__item">
+                      <button class="overlay__button">Add to cart</button>
                     </li>
                   </ul>
-                  <div class="image-container">
+                  <div class="gallery__image">
                     <img
                       src="./images/gallery/product8.png"
                       alt="Women sunglass"
@@ -490,9 +561,9 @@
                     />
                   </div>
                 </div>
-                <div class="coin">
-                  <p class="price-title">Cool lingerie</p>
-                  <p class="price">$56</p>
+                <div class="gallery__coin">
+                  <p class="gallery__text">Cool lingerie</p>
+                  <p class="gallery__price">$56</p>
                 </div>
               </a>
             </li>
@@ -500,53 +571,53 @@
         </div>
       </section>
 
-      <section class="blog">
+      <section class="blog section">
         <div class="container">
-          <h2 class="title">Latest news</h2>
-          <ul class="blog-list list">
-            <li class="blog-item">
+          <h2 class="blog__title section__title">Latest news</h2>
+          <ul class="blog__article list">
+            <li class="blog__item">
               <img
                 src="./images/blog/ipad-632394_960_720.png"
                 alt="iPad in hand"
                 width="350"
               />
-              <h3 class="blog-description">
+              <h3 class="blog__description">
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
               </h3>
-              <p class="about">
+              <p class="blog__text">
                 Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt
               </p>
-              <a class="blog-link" href="#">Read more</a>
+              <a class="blog__link" href="#">Read more</a>
             </li>
-            <li class="blog-item">
+            <li class="blog__item">
               <img src="./images/blog/slide1.png" alt="two girls" width="350" />
-              <h3 class="blog-description">
+              <h3 class="blog__description">
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
               </h3>
-              <p class="about">
+              <p class="blog__text">
                 Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt
               </p>
-              <a class="blog-link" href="#">Read more</a>
+              <a class="blog__link" href="#">Read more</a>
             </li>
-            <li class="blog-item">
+            <li class="blog__item">
               <img
                 src="./images/blog/product-img-5.png"
                 alt="a bus"
                 width="350"
               />
-              <h3 class="blog-description">
+              <h3 class="blog__description">
                 Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
               </h3>
-              <p class="about">
+              <p class="blog__text">
                 Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt
               </p>
-              <a class="blog-link" href="#">Read more</a>
+              <a class="blog__link" href="#">Read more</a>
             </li>
           </ul>
         </div>
@@ -554,15 +625,15 @@
     </main>
   </body>
 
-  <footer class="footer">
+  <footer class="footer section">
     <div class="container">
-      <h2 class="title">Newsletter</h2>
-      <p class="item">Follow a collection of news & promotions</p>
+      <h2 class="footer__title section__title">Newsletter</h2>
+      <p class="footer__text">Follow a collection of news & promotions</p>
       <form action="#">
-        <div class="form-item">
-          <label class="label-email">
+        <div class="form">
+          <label class="form__label">
             <input
-              class="email"
+              class="form__email"
               type="email"
               placeholder="Enter your email here"
               name="email"
